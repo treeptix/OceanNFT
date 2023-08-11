@@ -1,0 +1,605 @@
+body {
+    background-image: url(../img/bg.png);
+    background-position: top;
+    background-repeat: repeat, no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.background-blur {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(32, 8, 59, 0.75);
+    background-size: cover;
+    z-index: -1;
+}
+
+.ellipse {
+    position: absolute;
+    border-radius: 50%;
+    background: #FF00C8;
+    opacity: 0.5;
+    filter: blur(25px);
+    z-index: -2;
+}
+
+.first{
+    width: 270px;
+    height: 270px;
+    left: 300px;
+    top: 550px;
+}
+
+.sec{
+    width: 150px;
+    height: 150px;
+    left: 700px;
+    top: 1000px;
+}
+
+.third{
+    width: 200px;
+    height: 200px;
+    left: 500px;
+    top: 1500px;
+}
+
+.ford{
+    width: 75px;
+    height: 75px;
+    left: 850px;
+    top: 400px;
+}
+
+/* --------- header ------------- */
+header {
+    font-size: 19.9px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Orbitron';
+    letter-spacing: 3px;
+    max-width: 1450px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: auto;
+    margin-top: 42px;
+
+}
+
+header a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+header a span {
+    color: rgba(255, 255, 255);
+}
+
+.left-div-menu {
+    display: flex;
+    align-items: center;
+}
+
+.left-div-menu a {
+    display: flex;
+    align-items: center;
+}
+
+.center-div-menu {
+    margin-right: 150px;
+}
+
+.center-div-menu ul {
+    display: flex;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    width: 461px;
+    justify-content: space-between;
+
+}
+
+.center-div-menu ul li {
+    align-items: flex-start;
+    padding: 12px;
+
+}
+
+.right-div-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+
+}
+
+
+
+@media (max-width: 1400px) {
+    .center-div-menu ul {
+        width: auto;
+    }
+
+    header {
+        width: auto;
+    }
+
+    .icon {
+        margin: auto;
+    }
+}
+
+/* ---------------- main --------------- */
+
+main {
+    max-width: 1450px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: auto;
+    margin-top: 100px;
+}
+/*  ------------ container 1 ------------------- */
+.container-1{
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 3px;
+    color: white;
+}
+
+
+
+/* --------------- left side container 1 ------------ */
+.left-side-container-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.title-container-1{
+    font-size: 55px;
+    font-family: 'Spartan';
+    font-weight: 600;
+}
+
+.gradient-text {
+    background-image: linear-gradient(90deg, #ff04f2,#1aa6f7, #2f00ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   }
+
+.about-container-1{
+    font-family: 'Rajdhani';
+    font-weight: 400;
+    font-size: 26px;
+    padding-top: 40px;
+    margin-bottom: -40px;
+}
+
+.explore-container-1 {
+    height: 300px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Orbitron';
+    font-size: 20px;
+    background: url(../img/Explore.svg) -95px center no-repeat; 
+    background-size: contain;
+    margin-bottom: -40px;
+
+}
+
+.ex-content{
+    padding-left: 80px;
+}
+
+.createNFT{
+    background-image: linear-gradient(90deg, #0400f3,#b500fd, #fc45dd);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-left: 100px;
+}
+
+.stat-container-1{
+    display: flex;
+    font-size: 40px;
+}
+
+.stat-container-1 div{
+    padding-left: 5px;
+}
+
+.poloska{
+    padding-right: 7px;
+}
+
+.info-poloska{
+    font-size: 18px;
+    font-family: 'Alethia Next';
+}
+
+.line{
+    margin-right: 40px;
+    margin-left: 15px;
+}
+
+/* ----------- right side container 1 ------------- */
+.right-side-container-1{
+    padding-top: 30px;
+}
+
+.image-container{
+    
+    width: 402px;
+    height: 477px;
+    position: relative;
+    overflow: hidden;
+    background: url('/img/Vector 8.svg');
+    /* clip-path працює якось з проблемою (скоріше всього в шляху) треба розібратися детальніше */
+    clip-path: url('#obrizannya');
+
+}
+
+.img-change {
+    width: 100%; /* Заповнюємо ширину контейнера */
+    height: 100%; /* Зберігаємо висоту 100% */
+    object-fit: cover; /* Заповнюємо і обрізаємо зображення в контейнері */
+    object-position: center; /* Вирівнюємо по центру по горизонталі та вертикалі */
+}
+
+.some-image-info{
+    display: flex;
+    justify-content: space-around;
+    background: url('/img/VectorKytovyi.svg');
+    background-repeat: no-repeat;
+    width: 336px;
+    height: 200px;
+    background-size: 336px 181px;
+    margin-top: -120px;
+    margin-left: 155px; 
+    position: relative;   
+    backdrop-filter: blur(15px); 
+    z-index: 2;
+    clip-path: polygon(14% 0, 100% 0, 100% 100%, 0 100%, 0 24%);
+    font-family: 'Rajdhani';
+    letter-spacing: 1px;
+}
+
+    .left-sii{
+        padding-top: 30px;
+        
+    }
+
+    .strsii{
+        padding-top: 5px;
+    }
+
+    .name{
+        font-size: 18px;
+    }
+        
+    .usermame{
+        font-size: 16px;
+    }
+
+    .textprice{
+        font-size: 11px;
+    }
+
+    .price {
+        font-size: 11px;
+    }
+
+    .price img{
+        height: 20px;
+        padding-right: 3px;
+    }
+
+
+
+    .right-sii{
+        padding-top: 35px;
+    }
+
+    .actionRnds{
+        font-size: 11px;
+    }
+
+    .timeActionEnds{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .timeName{
+        font-size: 11px;
+    }
+
+    .dott{
+        padding-left: 10px;
+        text-align: center;
+    }
+
+    .notdott{
+        text-align: center;
+    }
+
+    .PlaceBid {
+        text-align: center;
+        width: 124px;
+        height: 43px;
+        margin-top: 20px;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+        background: url('/img/fonPlaceBid.png') center top no-repeat;
+        background-size: 124px 43px;
+    }
+
+    .PlaceBid a{
+        padding-top: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+
+
+/* ------------- container 2 -------- */
+
+.container-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.logo{
+    height: 53px;
+}
+
+.logoBitmex{
+    height: 32px;
+}
+
+/* ----------- container 3 ------------- */
+
+.container-3{
+    margin-top: 200px;
+}
+
+.header-container-3{
+    font-family: 'Orbitron';
+    font-size: 26px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-3 a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.body-container-3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.card{
+    border: none;
+    --bs-card-bg: none;
+    width: 437px;
+
+}
+
+
+/* ----------CARD ----------------- */
+
+.card-body {
+    padding: 30px 0px 30px 0px;
+    width: 437px;
+    height: 236px;
+    background-color: none;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    background: url('/img/fonCard.svg') center top no-repeat;
+    background-size: cover;
+    font-family: 'Rajdhani';
+    letter-spacing: 1px;
+}
+
+
+.card-img-top {
+    width: 437px;
+    display: block;
+    margin: 0 auto;
+}
+
+.left-sii-card {
+    padding-top: 0px;
+}
+
+.strsii-card {
+    padding-top: 10px;
+}
+
+.name-card {
+    font-size: 23px;
+}
+
+.username-card {
+    font-size: 20px;
+}
+
+.textprice-card {
+    font-size: 14px;
+}
+
+.price-card {
+    font-size: 14px;
+}
+
+.price-card img {
+    height: 25px;
+    padding-right: 3px;
+}
+
+.right-sii-card {
+    padding-top: 5px;
+}
+
+.actionRnds-card {
+    font-size: 14px;
+}
+
+.timeActionEnds-card {
+    display: flex;
+    justify-content: space-around;
+}
+
+.dott-card {
+    padding-left: 23px;
+    text-align: center;
+}
+
+.timeName-card {
+    font-size: 14px;
+}
+
+
+
+.notdott-card {
+    text-align: center;
+}
+
+.PlaceBid-card {
+    text-align: center;
+    width: 150px;
+    height: 60px;
+    margin-top: 25px;
+    margin-left: -10px;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+    background: url('/img/fonPlaceBid.png') center top no-repeat;
+    background-size: 100% auto;
+}
+
+.PlaceBid-card a {
+    text-align: center;
+    padding-top: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* ----------- container 4 ------------- */
+
+.container-4{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    height: 800px;
+}
+
+.left-side-container-4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-left-side-container-4{
+    color: white;
+    font-family: 'Orbitron';
+    font-weight: bold;
+    letter-spacing: 2px;
+    size: 26px;
+    padding: 30px 0 50px 0;
+}
+
+.mid-left-side-container-4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 42px;
+    margin: 0 auto;
+}
+
+
+.styled-link {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Orbitron';
+    font-weight: bold;
+    font-size: 26px;
+    letter-spacing: 2px;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 368px;
+    height: 98px;
+    border: 2px solid transparent; 
+    border-image: linear-gradient(to right, #000e88, #ff00dd); 
+    border-image-slice: 1; 
+    border-radius: 10px;
+
+}
+
+
+
+.styled-link:hover {
+    transform: scale(1.03);
+    border-radius: 0px;
+    color: white;
+}
+
+.bot-left-side-container-4{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color: white;
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+.bot-left-side-container-4 a{
+    color: white;
+    text-decoration: none;
+}
+
+.right-side-container-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; /* Забороняємо картинкам виходити за межі блоку */
+}
+
+.right-side-container-4 img{
+    max-height: 100%;
+    max-width: 90%;
+}
+
+.btnActiv{
+    background-image: linear-gradient(90deg, #0400f3,#b500fd, #fc45dd);
+    transform: scale(1.03);
+    border-radius: 0px;
+    color: white;
+}
+
