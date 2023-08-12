@@ -418,7 +418,7 @@ main {
     display: flex;
     color: white;
     justify-content: space-around;
-    background: url('/img/fonCard.svg') center top no-repeat;
+    background: url(../img/fonCard.svg) center top no-repeat;
     background-size: cover;
     font-family: 'Rajdhani';
     letter-spacing: 1px;
