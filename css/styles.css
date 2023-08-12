@@ -736,7 +736,152 @@ main {
     border-image-slice: 1; 
 }
 
+/* <!-- ---------- --container-6 -------> */
+
+.container-6{
+    margin-top: 180px;
+    margin-bottom: 100px;
+    color: white;
+}
+
+.top-container-6{
+    display: flex;
+    justify-content: center;
+}
+
+.top-container-6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name-top-container-6{
+    font-size: 26px;
+    font-family: 'Orbitron';
+}
+
+.name-top-container-6 span{
+    color: #FF56F6;
+}
+
+.describe-top-container-6{
+    width: 500px;
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.mid-container-6{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.card-stat-people{
+    width: 437px;
+    height: 123px;
+    background: url(../img/backgroundCardStatPeople.svg);
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 30px 0 30px;
+    margin-top: 34px;
+}
+
+.number-card-stat-people{
+    font-size: 19px;
+    font-family: 'Roboto';
+}
 
 
+.name-card-stat-people{
+    font-family: 'Roboto';
+    font-size: 19px;
+}
+
+.colvo-eth{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.persent-card-stat-people{
+    font-family: 'Roboto';
+    font-size: 15px;
+    width: 101px;
+    height: 36px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.positive-card-sta{
+    background: url(../img/greenbackround.svg);
+    color: #00FF66;
+}
+
+.negative-card-sta{
+    background: url(../img/redbackground.svg);
+    color: #FF0000;
+}
 
 
+.bot-container-6{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+/* <!----------- container-7  -------------> */
+
+.container-7{
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.container-7 img{
+    height: 100%;
+    width: 100%;
+
+}
+
+.main-container-7 {
+    width: 577px;
+    height: 473px;
+    background-image: url(../img/backgroundCardPeopleInfo.svg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 65px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    backdrop-filter: blur(10px); 
+    border-bottom: 1px;
+    font-family: 'inter';
+}
+
+.top-container-7{
+    font-size: 44px;
+
+}
+
+.mid-container-7{
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.bot-container-7{
+    font-size: 18px;
+    margin-top: 40px;
+}
