@@ -256,7 +256,7 @@ main {
 .some-image-info{
     display: flex;
     justify-content: space-around;
-    background: url('/img/VectorKytovyi.svg');
+    background: url(../img/VectorKytovyi.svg);
     background-repeat: no-repeat;
     width: 336px;
     height: 200px;
@@ -337,7 +337,7 @@ main {
         align-items: center;
         justify-content: center;
         font-size: 18px;
-        background: url('/img/fonPlaceBid.png') center top no-repeat;
+        background: url(../img/fonPlaceBid.png) center top no-repeat;
         background-size: 124px 43px;
     }
 
