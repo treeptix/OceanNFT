@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const buttons = document.querySelectorAll(".styled-link");
     const imageContainer = document.querySelector(".right-side-container-4 img");
   
-    imageContainer.src = buttons[0].getAttribute("data-image");
+    imageContainer.src = buttons[4].getAttribute("data-image");
   
     buttons.forEach(button => {
       button.addEventListener("click", function () {

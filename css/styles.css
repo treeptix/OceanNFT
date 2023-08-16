@@ -177,15 +177,16 @@ header a {
 /* ---------------- main --------------- */
 
 main {
-    max-width: 1450px;
-    padding-left: 25px;
-    padding-right: 25px;
+    max-width: 1600px;
+
     margin: auto;
     margin-top: 100px;
 }
 
 /*  ------------ container 1 ------------------- */
 .container-1 {
+    padding-left: 100px;
+    padding-right: 100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -197,7 +198,7 @@ main {
 
 /* --------------- left side container 1 ------------ */
 .left-side-container-1 {
-    padding-top: 12px;
+    padding-top: 13px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -430,7 +431,7 @@ main {
 
 
 .right-sii {
-    padding-top: 36px;
+    padding-top: 37px;
 
 }
 
@@ -446,10 +447,19 @@ main {
 .timeActionEnds {
     display: flex;
     justify-content: space-around;
+    font-family: 'Rajdhani';
+    font-size: 11.055px;
+    font-style: normal;
+    font-weight: 500;
 }
 
 .timeName {
-    font-size: 11px;
+    margin-top: -2px;
+    padding-left: 1.5px;
+    font-family: 'Rajdhani';
+    font-size: 10.5px;
+    font-weight: 100;
+    letter-spacing: 0.3px;
 }
 
 .dott {
@@ -463,13 +473,23 @@ main {
     font-size: 17.687px;
     font-style: normal;
     font-weight: 100;
+    margin-top: -2px;
+    color: white;
+}
+
+.mid-notdott {
+    padding-right: 2px;
+}
+
+.bot-notdott {
+    padding-right: 4px;
 }
 
 .PlaceBid {
     text-align: center;
     width: 124px;
     height: 43px;
-    margin-top: 20px;
+    margin-top: 25px;
     align-items: center;
     justify-content: center;
     font-size: 18px;
@@ -478,7 +498,8 @@ main {
 }
 
 .PlaceBid a {
-    padding-top: 4px;
+    padding-top: 6px;
+    margin-left: 3px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -486,6 +507,16 @@ main {
     color: white;
     justify-content: center;
     align-items: center;
+    font-family: 'Rajdhani';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 100;
+    letter-spacing: 0;
+}
+
+.PlaceBid a img {
+    margin-top: -4px;
+    margin-left: 12px;
 }
 
 
@@ -495,6 +526,8 @@ main {
 /* ------------- container 2 -------- */
 
 .container-2 {
+    padding-left: 100px;
+    padding-right: 100px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -524,33 +557,51 @@ main {
 /* ----------- container 3 ------------- */
 
 .container-3 {
-    margin-top: 200px;
+    padding-left: 110px;
+    padding-right: 105px;
+    margin-top: 214px;
+
 }
 
 .header-container-3 {
     font-family: 'Orbitron';
-    font-size: 26px;
+    font-size: 25px;
     color: #ffffff;
     display: flex;
     justify-content: space-between;
+    font-family: 'Orbitron';
+    font-size: 26.531px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+
 }
+
+
 
 .container-3 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+.container-3 a img {
+    margin-left: 23px;
+    width: 50px;
+    padding-bottom: 6px;
+    padding-right: 13px;
+}
+
 .body-container-3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 44px;
 }
 
 .card {
     border: none;
     --bs-card-bg: none;
-    width: 437px;
+    width: 438px;
 
 }
 
@@ -559,7 +610,7 @@ main {
 
 .card-body {
     padding: 30px 0px 30px 0px;
-    width: 437px;
+    width: 438px;
     height: 236px;
     background-color: none;
     display: flex;
@@ -571,15 +622,25 @@ main {
     letter-spacing: 1px;
 }
 
+.left-sii-card2 {
+    margin-left: -5px;
+}
+
+.left-sii-card3 {
+    margin-left: -15px;
+}
+
 
 .card-img-top {
-    width: 437px;
+    width: 438px;
     display: block;
     margin: 0 auto;
 }
 
 .left-sii-card {
     padding-top: 0px;
+    width: 220px;
+    margin-left: -2px;
 }
 
 .strsii-card {
@@ -587,19 +648,61 @@ main {
 }
 
 .name-card {
-    font-size: 23px;
+    margin-top: 2px;
+    margin-left: 9px;
+    font-family: 'Rajdhani';
+    font-size: 23.04px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.1px;
+}
+
+.microchelick {
+    margin-top: -1px;
+    width: 47px;
+    padding-left: 9px;
+}
+
+.microgalka {
+
+    width: 15px;
+    padding-left: -1px;
 }
 
 .username-card {
-    font-size: 20px;
+    font-family: 'Rajdhani';
+    font-size: 20.16px;
+    font-style: normal;
+    font-weight: 100;
+    letter-spacing: 0.4px;
+}
+
+.username-card span {
+    padding-left: 3px;
 }
 
 .textprice-card {
-    font-size: 14px;
+    font-family: 'Rajdhani';
+    font-size: 14.4px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0px;
+    margin-top: 14px;
+    margin-left: 8px;
 }
 
 .price-card {
-    font-size: 14px;
+    font-family: 'Rajdhani';
+    font-size: 14.4px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: -2px;
+    margin-left: 1px;
+    letter-spacing: 0px;
+}
+
+.ethmicro {
+    width: 99px;
 }
 
 .price-card img {
@@ -607,65 +710,132 @@ main {
     padding-right: 3px;
 }
 
+
 .right-sii-card {
-    padding-top: 5px;
+    padding-top: 8px;
 }
 
 .actionRnds-card {
-    font-size: 14px;
+    font-family: 'Rajdhani';
+    font-size: 14.4px;
+    font-style: normal;
+    font-weight: 100;
+    margin-left: -25px;
+    letter-spacing: 0px;
 }
 
 .timeActionEnds-card {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-top: -6px;
+    margin-left: -17px;
+
 }
 
 .dott-card {
-    padding-left: 23px;
+    margin-left: -20px;
     text-align: center;
 }
 
 .timeName-card {
-    font-size: 14px;
+    font-family: 'Rajdhani';
+    font-size: 14.4px;
+    font-style: normal;
+    font-weight: 100;
+    letter-spacing: 0px;
 }
 
+.timeHours {
+    margin-top: -6px;
+    margin-left: -10px;
+}
 
+.timeMins {
+    margin-top: -7px;
+    margin-left: -8px;
+}
+
+.timeSecs {
+    padding-right: 14px;
+    margin-top: -6px;
+}
+
+.bignum {
+    font-family: 'Rajdhani';
+    font-size: 23.04px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0px;
+    margin-left: -24px;
+}
+
+.bignum2 {
+    font-family: 'Rajdhani';
+    font-size: 23.04px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0px;
+    margin-left: -11px;
+}
+
+.bignum3 {
+    font-family: 'Rajdhani';
+    font-size: 23.04px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0px;
+    margin-left: -14px;
+}
 
 .notdott-card {
     text-align: center;
 }
 
-.PlaceBid-card {
-    text-align: center;
-    width: 150px;
-    height: 60px;
-    margin-top: 25px;
-    margin-left: -10px;
-    align-items: center;
-    justify-content: center;
-    font-size: 23px;
-    background: url('/img/fonPlaceBid.png') center top no-repeat;
-    background-size: 100% auto;
-}
-
-.PlaceBid-card a {
-    text-align: center;
-    padding-top: 4px;
+.btnPlace {
+    margin-top: 30px;
+    color: white;
+    font-family: 'Rajdhani';
+    font-size: 23.04px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-decoration: none;
-    color: white;
-    justify-content: center;
-    align-items: center;
+    width: 160px;
+    height: 55px;
+    background-image: linear-gradient(90deg, #ff60dd, #c42dff, #77bdff);
+    border-image: linear-gradient(to right, #4ba6fc, #ff7de3);
+    border-image-slice: 1;
+
 }
+
+.PlaceBid-card {
+    text-align: center;
+    margin-top: -4px;
+    margin-left: -37px;
+    align-items: center;
+    justify-content: center;
+}
+
+.spanPlace {
+    margin-left: -17px;
+    margin-top: -3px;
+
+}
+
+
+
+
 
 
 
 /* ----------- container 4 ------------- */
 
 .container-4 {
-    margin-top: 150px;
+    padding-left: 112px;
+    padding-right: 100px;
+    margin-top: 200px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -680,36 +850,41 @@ main {
 .top-left-side-container-4 {
     color: white;
     font-family: 'Orbitron';
-    font-weight: bold;
-    letter-spacing: 2px;
-    size: 26px;
-    padding: 30px 0 50px 0;
+    font-size: 26.531px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.1px;
+    padding: 10px 0 45px 0;
 }
 
 .mid-left-side-container-4 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 42px;
+    gap: 42px 40px;
     margin: 0 auto;
+    margin-left: -3px;
 }
 
 
 .styled-link {
     color: rgba(255, 255, 255, 0.5);
     font-family: 'Orbitron';
-    font-weight: bold;
-    font-size: 26px;
     letter-spacing: 2px;
     background: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 368px;
-    height: 98px;
+    width: 372px;
+    height: 101px;
     border: 2px solid transparent;
     border-image: linear-gradient(to right, #000e88, #ff00dd);
     border-image-slice: 1;
     border-radius: 10px;
+    font-size: 26.531px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.6px;
 
 }
 
@@ -726,31 +901,45 @@ main {
     justify-content: right;
     align-items: center;
     color: white;
-    padding-top: 50px;
+    padding-top: 45px;
     font-size: 20px;
 }
 
 .bot-left-side-container-4 a {
     color: white;
     text-decoration: none;
+    font-family: 'Orbitron';
+    font-size: 19.898px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.1px;
+}
+
+.bot-left-side-container-4 a img {
+    margin-top: -4px;
+    padding-right: 3px;
+}
+
+.bot-left-side-container-4 a span {
+    padding-right: 9px;
 }
 
 .right-side-container-4 {
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
     /* Забороняємо картинкам виходити за межі блоку */
 }
 
 .right-side-container-4 img {
-    max-height: 100%;
-    max-width: 90%;
+    margin-top: -40px;
+    padding-right: 43px;
 }
 
 .btnActiv {
     background-image: linear-gradient(90deg, #0400f3, #b500fd, #fc45dd);
-    transform: scale(1.03);
+    transform: scale(1.00);
     border-radius: 0px;
     color: white;
 }
@@ -760,7 +949,10 @@ main {
 .container-5 {
     display: flex;
     flex-direction: column;
-    margin-top: 150px;
+    margin-top: 160px;
+    padding-left: 110px;
+    padding-right: 107px;
+
 }
 
 .top-container-5 {
@@ -777,22 +969,33 @@ main {
 .top-left-side-container-5 {
     color: white;
     font-family: 'Orbitron';
-    font-weight: bold;
-    letter-spacing: 2px;
-    size: 26px;
+    font-size: 26.531px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.2px;
 }
 
 .top-right-side-container-5 {
     display: flex;
     justify-content: right;
-    align-items: center;
-    color: white;
-    font-size: 20px;
+    font-family: 'Orbitron';
+    font-size: 26.531px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.1px;
 }
 
 .top-right-side-container-5 a {
     color: white;
     text-decoration: none;
+}
+
+.top-right-side-container-5 img {
+    margin-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 9px;
 }
 
 /* ---card-people-info-- */
@@ -801,6 +1004,7 @@ main {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 19px;
 }
 
 .card-people-info {
@@ -820,16 +1024,16 @@ main {
 }
 
 .avatar {
-    width: 160px;
+    width: 164px;
     position: absolute;
     left: 50%;
-    top: 20%;
+    top: 18.5%;
     transform: translate(-50%);
 }
 
 .info-card-people-info {
     width: 300px;
-    margin-top: 80px;
+    margin-top: 65px;
     text-align: center;
     color: white;
     font-family: 'Rajdhani';
@@ -840,55 +1044,77 @@ main {
 }
 
 .name-card-people-info {
-    font-size: 24px;
+    font-size: 24.32px;
+    font-style: normal;
+    font-weight: 500;
 }
 
 .nickname-card-people-info {
-    font-size: 20px;
-    font-weight: 100;
+    font-size: 20.16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46.08px;
     color: #FFB1EE;
+    padding-left: 20px;
+    margin-top: -10px;
 
 }
 
+.nickname-card-people-info img {
+    height: 19px;
+}
+
 .stats-card-people-info {
-    margin-top: 20px;
+    margin-top: 16px;
     display: flex;
     justify-content: space-between;
-    width: 300px;
+    width: 353px;
+    padding-right: 3px;
 
 }
 
 .stats-info-colums-top {
-    font-size: 31px;
+    font-size: 31.69px;
+    font-style: normal;
+    font-weight: 600;
 }
 
 .stats-info-colums-bot {
-    margin-top: -10px;
-    font-size: 19px;
+    padding-left: 1px;
+    margin-top: -8px;
+    font-size: 19.806px;
+    font-style: normal;
+    font-weight: 500;
     color: rgba(255, 255, 255, 0.5);
 }
 
 .btnFollow {
-    margin-top: 30px;
+    margin-top: 38px;
+    margin-left: 4px;
     color: white;
     font-family: 'Rajdhani';
-    font-weight: 500;
-    font-size: 20px;
     letter-spacing: 2px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 236px;
-    height: 50px;
+    width: 240px;
+    height: 54px;
     background-image: linear-gradient(90deg, #ff60dd, #c42dff, #77bdff);
     border-image: linear-gradient(to right, #4ba6fc, #ff7de3);
     border-image-slice: 1;
+    font-size: 19.898px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding-left: 8px;
 }
 
 /* <!-- ---------- --container-6 -------> */
 
 .container-6 {
-    margin-top: 180px;
+    padding-left: 103px;
+    padding-right: 103px;
+    margin-top: 160px;
     margin-bottom: 100px;
     color: white;
 }
@@ -905,8 +1131,13 @@ main {
 }
 
 .name-top-container-6 {
-    font-size: 26px;
     font-family: 'Orbitron';
+    font-size: 26.531px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    padding-left: 29px;
+    letter-spacing: 0.5px;
 }
 
 .name-top-container-6 span {
@@ -914,17 +1145,19 @@ main {
 }
 
 .describe-top-container-6 {
-    width: 500px;
-    font-size: 18px;
     font-family: 'Roboto';
+    font-size: 17.687px;
+    font-style: normal;
     font-weight: 100;
-    letter-spacing: 1px;
     text-align: center;
-    margin-top: 20px;
+    letter-spacing: 0.3px;
+    margin-top: 23px;
     margin-bottom: 10px;
+    padding-left: 15px;
 }
 
 .mid-container-6 {
+    margin-top: 12px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -932,32 +1165,59 @@ main {
 }
 
 .card-stat-people {
-    width: 437px;
+    width: 451px;
     height: 123px;
     background: url(../img/backgroundCardStatPeople.svg);
     background-size: 100% 100%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding: 0 30px 0 30px;
-    margin-top: 34px;
+    padding: 0 30px 0 37px;
+    margin-top: 35px;
+    position: relative;
 }
+
+.card-stat-people img {
+    margin-left: -4px;
+}
+
 
 .number-card-stat-people {
-    font-size: 19px;
     font-family: 'Roboto';
+    font-size: 19.048px;
+    font-style: normal;
+    font-weight: 500;
+    width: 30px;
+    display: flex;
+    justify-content: left;
 }
 
+.details-card-stat-people {
+    margin-left: 13px;
+}
 
 .name-card-stat-people {
     font-family: 'Roboto';
-    font-size: 19px;
+    font-size: 19.048px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: -4px;
 }
 
 .colvo-eth {
     display: flex;
     align-items: center;
     font-size: 14px;
+    margin-top: 7px;
+    margin-left: 2px;
+}
+
+.colvo-eth span {
+    font-family: 'Roboto';
+    font-size: 13.757px;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 4px;
+    margin-top: 3px;
 }
 
 .persent-card-stat-people {
@@ -965,6 +1225,9 @@ main {
     font-size: 15px;
     width: 101px;
     height: 36px;
+    position: absolute;
+    top: 41%;
+    left: 71.5%;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -988,12 +1251,33 @@ main {
     margin-top: 20px;
 }
 
+.btn-bot-container-6 {
+    margin-top: 39px;
+    margin-left: 17px;
+    color: white;
+    font-family: 'Rajdhani';
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 54px;
+    background-image: linear-gradient(90deg, #ff60dd, #c42dff, #77bdff);
+    border-image: linear-gradient(to right, #4ba6fc, #ff7de3);
+    border-image-slice: 1;
+    font-size: 19.898px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding-left: 8px;
+}
+
 
 /* <!----------- container-7  -------------> */
 
 .container-7 {
     position: relative;
-    margin-top: 100px;
+    margin-top: 160px;
     margin-bottom: 200px;
 }
 
@@ -1011,36 +1295,56 @@ main {
     display: flex;
     flex-direction: column;
     color: white;
-    padding: 65px;
+    padding-top: 54px;
+    padding-left: 75px;
+    padding-right: 60px;
     position: absolute;
-    top: 25%;
-    left: 50%;
+    top: 39%;
+    left: 55.3%;
     backdrop-filter: blur(10px);
     border-bottom: 1px;
     font-family: 'inter';
 }
 
 .top-container-7 {
-    font-size: 44px;
+    font-family: 'Inter';
+    font-size: 44.509px;
+    font-style: normal;
+    font-weight: 900;
 
 }
 
 .mid-container-7 {
-    font-size: 20px;
-    margin-top: 40px;
+    margin-top: 16px;
+    font-family: 'Inter';
+    font-size: 20.029px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35.607px;
+    letter-spacing: 0px;
 }
 
 .bot-container-7 {
+    margin-top: 45px;
+    margin-left: -2px;
+    font-family: 'Inter';
     font-size: 18px;
-    margin-top: 40px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.bot-container-7 span{
+    padding-left: 40px;
 }
 
 /* <!----------- container-8  -------------> */
 
 .container-8 {
+    padding-left: 111px;
+    padding-right: 103px;
     display: flex;
     color: white;
-    margin-top: 40px;
+    margin-top: 292px;
     margin-bottom: 70px;
 }
 
