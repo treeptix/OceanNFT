@@ -1333,7 +1333,7 @@ main {
     font-weight: 500;
 }
 
-.bot-container-7 span{
+.bot-container-7 span {
     padding-left: 40px;
 }
 
@@ -1367,7 +1367,7 @@ main {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    letter-spacing: 4px;
+    letter-spacing: 0.3px;
 }
 
 .about-container-8 {
@@ -1393,19 +1393,22 @@ main {
 }
 
 .input-email {
-    padding: 15.5px 17.5px 15.5px 17.5px;
+    padding: 12px 18px 16px 17.5px;
     border-radius: 5.527px 0px 0px 5.527px;
     border: 0;
     height: 53px;
+    width: 274px;
+    font-size: 17px;
 }
 
 .submit-btn {
-    margin-left: 8px;
+    margin-left: 6px;
+    margin-top: -4px;
     font-family: 'Inter';
-    font-size: 15px;
+    font-size: 15.7px;
     font-style: normal;
     font-weight: 500;
-    width: 143px;
+    width: 147px;
     height: 53px;
     background-image: linear-gradient(90deg, #ff60dd, #c42dff, #77bdff);
     border-image: linear-gradient(to right, #4ba6fc, #ff7de3);
@@ -1416,7 +1419,10 @@ main {
 
 /*-------------- footer ----------- */
 .footer {
-    width: 1400px;
+    padding-top: 79px;
+    padding-left: 82px;
+    padding-right: 147px;
+    width: 1600px;
     margin: auto;
 }
 
@@ -1428,12 +1434,39 @@ main {
     font-style: normal;
     font-weight: 400;
     justify-content: space-between;
-    padding: 50px 70px 40px 0px;
+    padding: 90px 70px 40px 0px;
+}
+
+.vector_footer_icon {
+    margin-right: 4px;
+    padding-bottom: 3px;
+}
+
+.newfooter {
+    color: #2EC5CE;
+    font-family: 'MuseoModerno';
+    font-size: 22.109px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26.531px;
+}
+
+.aboutFooter {
+    margin-top: 29px;
+    letter-spacing: 0.1px;
+    font-size: 15.476px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.column-1 {
+    width: 282px;
 }
 
 .logo-column-1 {
     display: flex;
-    margin-top: 20px;
+    margin-top: 26px;
 }
 
 .logo-column-1 a {
@@ -1455,29 +1488,87 @@ main {
     margin-bottom: 13.5px;
 }
 
-.top-footer .footer-column .main-row {
+.top-footer .footer-column .main-row1 {
     color: white;
-    padding-bottom: 4px;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Orbitron';
+    font-size: 19.898px;
+    font-style: normal;
+    font-weight: 700;
 }
 
-.column-1 {
-    max-width: 281px;
+.columns {
+    margin-top: -2px;
+    display: flex;
+    justify-content: space-between;
+    width: 928px;
 }
+
+.column-3 {
+    margin-left: -18px;
+    padding-right: 1px;
+}
+
+.column-4 {
+    margin-left: -11px;
+}
+
+.column-5 {
+    margin-right: -24px;
+    padding-left: 2px
+}
+
+.column-2 a {
+    font-family: 'Inter';
+    font-size: 15.476px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+
+.column-2 .main-row {
+    font-family: 'Inter';
+    font-size: 19.898px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30.953px;
+    letter-spacing: 0.15px;
+}
+
 
 .footer-column {
     display: flex;
     flex-direction: column;
 }
 
+.linebotarara {
+    margin-top: 33px;
+}
+
 .bot-footer {
+    padding-top: 25px;
     display: flex;
     justify-content: space-between;
     color: white;
-    padding-right: 60px;
+    padding-right: 31px;
+    font-family: 'Inter';
+    font-size: 15.476px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26.531px
+}
 
+.left-side-bot-footer{
+    padding-top: 1px;
 }
 
 .right-side-bot-footer a {
     color: #D9DBE1;
     text-decoration: none;
+}
+
+.right-side-bot-footer span{
+    padding: 0 6px 0 6px;
 }
