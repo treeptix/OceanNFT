@@ -61,7 +61,7 @@ header {
     font-family: 'Orbitron';
     letter-spacing: 3px;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
     max-width: 1600px;
     padding-left: 113px;
@@ -69,6 +69,10 @@ header {
     margin: auto;
     margin-top: 49px;
 
+}
+
+.dropdownMenu{
+    display: none;
 }
 
 .vector_main_icon {
@@ -212,6 +216,7 @@ main {
     padding-left: 3px;
     letter-spacing: 0px;
     line-height: 1.4;
+    max-width: 800px;
 
 }
 
@@ -238,6 +243,7 @@ main {
     font-weight: 400;
     letter-spacing: 0px;
     line-height: 44.218px;
+    max-width: 700px;
 }
 
 .explore-container-1 {
@@ -311,6 +317,7 @@ main {
     line-height: 22.109px;
     letter-spacing: 0.221px;
     margin-top: -3px;
+    color: rgba(255, 255, 255, 0.60);
 
 }
 
@@ -1109,6 +1116,10 @@ main {
     padding-left: 8px;
 }
 
+.bot-container-3{
+    display: none;
+}
+
 /* <!-- ---------- --container-6 -------> */
 
 .container-6 {
@@ -1154,6 +1165,7 @@ main {
     margin-top: 23px;
     margin-bottom: 10px;
     padding-left: 15px;
+    width: 530px;
 }
 
 .mid-container-6 {
@@ -1343,6 +1355,7 @@ main {
     padding-left: 111px;
     padding-right: 103px;
     display: flex;
+    /* flex-wrap: wrap; */
     color: white;
     margin-top: 292px;
     margin-bottom: 70px;
@@ -1403,7 +1416,7 @@ main {
 
 .submit-btn {
     margin-left: 6px;
-    margin-top: -4px;
+    margin-top: 0px;
     font-family: 'Inter';
     font-size: 15.7px;
     font-style: normal;
@@ -1422,7 +1435,7 @@ main {
     padding-top: 79px;
     padding-left: 82px;
     padding-right: 147px;
-    width: 1600px;
+    max-width: 1600px;
     margin: auto;
 }
 
@@ -1435,6 +1448,7 @@ main {
     font-weight: 400;
     justify-content: space-between;
     padding: 90px 70px 40px 0px;
+    flex-wrap: wrap;
 }
 
 .vector_footer_icon {
@@ -1449,6 +1463,7 @@ main {
     font-style: normal;
     font-weight: 400;
     line-height: 26.531px;
+    margin-left: 5px;
 }
 
 .aboutFooter {
@@ -1506,7 +1521,7 @@ main {
 }
 
 .column-3 {
-    margin-left: -18px;
+    margin-left: -20px;
     padding-right: 1px;
 }
 
@@ -1543,8 +1558,13 @@ main {
     flex-direction: column;
 }
 
-.linebotarara {
+.linebotarara1{
+    width: 100%;
+}
+
+.linebotarara2 {
     margin-top: 33px;
+    width: 100%;
 }
 
 .bot-footer {
@@ -1560,7 +1580,7 @@ main {
     line-height: 26.531px
 }
 
-.left-side-bot-footer{
+.left-side-bot-footer {
     padding-top: 1px;
 }
 
@@ -1569,6 +1589,6 @@ main {
     text-decoration: none;
 }
 
-.right-side-bot-footer span{
+.right-side-bot-footer span {
     padding: 0 6px 0 6px;
 }
