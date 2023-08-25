@@ -71,7 +71,7 @@ header {
 
 }
 
-.dropdownMenu{
+.btn{
     display: none;
 }
 
@@ -330,6 +330,10 @@ main {
 .line2 {
     margin-right: 35px;
     margin-left: 14px;
+}
+
+.container-2-in-con-1{
+    display: none;
 }
 
 /* ----------- right side container 1 ------------- */
@@ -599,9 +603,9 @@ main {
 }
 
 .body-container-3 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
     margin-top: 44px;
 }
 
@@ -610,6 +614,17 @@ main {
     --bs-card-bg: none;
     width: 438px;
 
+}
+
+.swiper-container {
+    overflow: hidden; /* Відключення горизонтального скролінгу */
+    max-width: 100%; /* Обмеження максимальної ширини контейнера */
+    white-space: nowrap; /* Відключення переносів */
+}
+
+.swiper-slide{
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -945,7 +960,7 @@ main {
 }
 
 .btnActiv {
-    background-image: linear-gradient(90deg, #0400f3, #b500fd, #fc45dd);
+           background-image: linear-gradient(90deg, #fc45dd, #b500fd, #69c9f5);
     transform: scale(1.00);
     border-radius: 0px;
     color: white;
@@ -1313,7 +1328,7 @@ main {
     position: absolute;
     top: 39%;
     left: 55.3%;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(40px);
     border-bottom: 1px;
     font-family: 'inter';
 }
@@ -1591,4 +1606,11 @@ main {
 
 .right-side-bot-footer span {
     padding: 0 6px 0 6px;
+}
+
+
+/* ----accordion----------- */
+
+.accordion{
+    display: none;
 }

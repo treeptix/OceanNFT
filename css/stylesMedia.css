@@ -32,19 +32,62 @@
         display: flex;
         justify-content: space-around;
         padding-left: 23px;
-        padding-right: 23px;
+        padding-right: 26px;
         margin: auto;
-        margin-top: 49px;
+        margin-top: 23px;
 
     }
 
-    .dropdownMenu {
+    .btn {
         display: block;
     }
 
-    .nft-left,
+    .dropdown-toggle::after {
+        content: none;
+    }
+
+    .dropdown-menu {
+        background-color: gray;
+    }
+
+    .dropdown-item {
+        color: white;
+    }
+
+    .btn {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .dropdown-item:hover {
+        background-color: grey;
+        color: black;
+    }
+
+    .vector_main_icon {
+        height: 23px;
+        margin-left: -1px;
+        margin-bottom: -2px;
+    }
+
+    .nft-left {
+        margin-bottom: 1px;
+        margin-left: 3px;
+        font-family: 'Orbitron';
+        font-size: 14.7px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
     .nft-right {
-        font-size: 16.128px;
+        margin-bottom: 1px;
+        margin-left: 0px;
+        font-family: 'Orbitron';
+        font-size: 14.7px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
     }
 
 
@@ -80,7 +123,7 @@
         max-width: 1600px;
 
         margin: auto;
-        margin-top: 50px;
+        margin-top: 58px;
     }
 
     /*  ------------ container 1 ------------------- */
@@ -118,17 +161,18 @@
     }
 
     .gradient-text {
-        background-image: linear-gradient(90deg, #ff04f2, #1aa6f7, #2f00ff);
+        margin-left: -2px;
+        background-image: linear-gradient(90deg, #FF56F6, #8445b8, #43A5E3);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        font-family: 'Spartan';
+        font-family: 'Lato';
         font-size: 42px;
         font-style: normal;
         font-weight: 700;
         padding-left: 3px;
         letter-spacing: 0px;
-        line-height: 137.4%;
+        line-height: 139%;
     }
 
     .about-container-1 {
@@ -137,45 +181,46 @@
         font-style: normal;
         font-weight: 400;
         line-height: 23.218px;
-        letter-spacing: 1px;
+        letter-spacing: 0px;
         margin: auto;
-        padding: 40px 30px 0 30px;
+        padding: 27px 30px 0 30px;
     }
 
     .explore-container-1 {
         display: flex;
         align-items: center;
-        padding: 40px 30px 0 30px;
+        padding: 31px 30px 24px 30px;
     }
 
     .createNFT {
-        background-image: linear-gradient(90deg, #0400f3, #b500fd, #fc45dd);
+        background-image: linear-gradient(90deg, #43A5E3, #8445b8, #FF56F6);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        margin-left: 32px;
+        margin-left: 12px;
         font-family: 'Orbitron';
         font-size: 12px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
-        letter-spacing: 0.4px;
+        letter-spacing: 0.3px;
     }
 
     .btnExplore {
         border: none;
-        width: 133px;
-        height: 35px;
+        width: 141px;
+        height: 40px;
         background: url(../Explore.svg) no-repeat;
-        background-position: 48% 48%;
-        background-size: 233px 148px;
+        background-position: 51% 48%;
+        background-size: 260px 148px;
         color: white;
         font-family: 'Orbitron';
-        font-size: 12px;
+        font-size: 11px;
         font-style: normal;
-        font-weight: 700;
+        font-weight: 400;
         line-height: normal;
-        letter-spacing: 1.2px;
+        letter-spacing: 1.0px;
+        padding-left: 15px;
     }
 
     .btnExplore div {
@@ -184,7 +229,7 @@
 
     .btnExplore img {
         padding-left: 10px;
-        width: 29px;
+        width: 40px;
     }
 
     .stat-container-1 {
@@ -201,14 +246,15 @@
         margin: auto;
         width: 100%;
         justify-content: space-around;
+        padding-right: 19px;
     }
 
     .stat-container-1 div {
-        padding-left: 5px;
+        padding-left: 0px;
     }
 
     .poloska {
-        padding-right: 7px;
+        padding-right: 0px;
 
     }
 
@@ -234,14 +280,27 @@
         display: none;
     }
 
+    .container-2-in-con-1 {
+        display: block;
+        padding-left: 30px;
+        padding-right: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 46px;
+    }
+
+
+
     /* ----------- right side container 1 ------------- */
     .right-side-container-1 {
-        padding-top: 30px;
+        padding-top: 57px;
     }
 
     .image-container {
 
-        width: 340px;
+        width: 328px;
         height: 477px;
         position: relative;
         overflow: hidden;
@@ -249,7 +308,7 @@
         /* clip-path працює якось з проблемою (скоріше всього в шляху) треба розібратися детальніше */
         clip-path: url('#obrizannya');
         margin: auto;
-        border-top-right-radius: 25px;
+        border-top-right-radius: 10px;
         border-bottom-right-radius: 50px;
 
     }
@@ -261,7 +320,7 @@
         /* Зберігаємо висоту 100% */
         object-fit: cover;
         /* Заповнюємо і обрізаємо зображення в контейнері */
-        object-position: center;
+        object-position: left;
         /* Вирівнюємо по центру по горизонталі та вертикалі */
     }
 
@@ -270,10 +329,11 @@
         justify-content: space-around;
         background: url(../img/VectorKytovyi.svg);
         background-repeat: no-repeat;
-        width: 340px;
-        height: 200px;
-        background-size: 336px 181px;
-        margin-top: -80px;
+        width: 324px;
+        height: 174.789px;
+        background-size: cover;
+        margin-top: -180px;
+        top: -60px;
         margin-left: 0px;
         position: relative;
         backdrop-filter: blur(15px);
@@ -285,7 +345,7 @@
     }
 
     .left-sii {
-        padding-top: 30px;
+        padding-top: 29px;
 
     }
 
@@ -294,7 +354,7 @@
     }
 
     .name {
-        font-size: 17.687px;
+        font-size: 17.053px;
         padding-left: 4px;
         letter-spacing: 0px;
         font-style: normal;
@@ -302,13 +362,13 @@
     }
 
     .username {
-        font-size: 16px;
+        font-size: 11px;
         margin-top: 4px;
         margin-left: 4.5px;
         font-family: 'Rajdhani';
         font-size: 15px;
         font-style: normal;
-        font-weight: 600;
+        font-weight: 100;
         letter-spacing: 0.3px;
     }
 
@@ -317,10 +377,10 @@
     }
 
     .textprice {
-        margin-top: 7px;
+        margin-top: 5px;
         margin-left: 4px;
         font-family: 'Rajdhani';
-        font-size: 11.055px;
+        font-size: 10.658px;
         font-style: normal;
         font-weight: 1;
         letter-spacing: 0.1px;
@@ -344,21 +404,22 @@
 
 
     .right-sii {
-        padding-top: 37px;
+        padding-top: 34px;
 
     }
 
     .actionRnds {
-        padding-left: 10px;
+        padding-left: 15px;
         font-family: 'Rajdhani';
-        font-size: 11.3px;
+        font-size: 10.758px;
         font-style: normal;
         font-weight: 100;
-        letter-spacing: 0;
+        letter-spacing: 0px;
     }
 
     .timeActionEnds {
         display: flex;
+        margin-left: 4px;
         justify-content: space-around;
         font-family: 'Rajdhani';
         font-size: 11.055px;
@@ -370,7 +431,7 @@
         margin-top: -2px;
         padding-left: 1.5px;
         font-family: 'Rajdhani';
-        font-size: 10.5px;
+        font-size: 10.658px;
         font-weight: 100;
         letter-spacing: 0.3px;
     }
@@ -399,15 +460,16 @@
     }
 
     .PlaceBid {
+        margin-left: 5px;
         text-align: center;
-        width: 124px;
-        height: 43px;
-        margin-top: 25px;
+        width: 120px;
+        height: 41px;
+        margin-top: 24px;
         align-items: center;
         justify-content: center;
         font-size: 18px;
         background: url(../img/fonPlaceBid.png) center top no-repeat;
-        background-size: 124px 43px;
+        background-size: 120px 41px;
     }
 
     .PlaceBid a {
@@ -421,9 +483,9 @@
         justify-content: center;
         align-items: center;
         font-family: 'Rajdhani';
-        font-size: 18px;
+        font-size: 17.053px;
         font-style: normal;
-        font-weight: 100;
+        font-weight: 500;
         letter-spacing: 0;
     }
 
@@ -446,6 +508,7 @@
         align-items: center;
         justify-content: space-between;
         margin-top: 25px;
+        display: none;
     }
 
     .logo1 {
@@ -456,19 +519,21 @@
 
     .logo2 {
         padding-top: 4px;
-        height: 30px;
+        height: 33px;
+        margin-right: 23px;
     }
 
     .logo3 {
         padding-top: 4px;
-        height: 30px;
-        margin-left: -8px;
+        margin-top: 25px;
+        height: 33.5px;
+        margin-left: -10px;
     }
 
     .logoBitmex {
         height: 17px;
-        margin-top: 18px;
-        margin-right: 0px;
+        margin-top: 30px;
+        margin-right: 5px;
     }
 
     /* ----------- container 3 ------------- */
@@ -476,7 +541,7 @@
     .container-3 {
         padding-left: 0px;
         padding-right: 0px;
-        margin-top: 50px;
+        margin-top: 49px;
 
     }
 
@@ -488,11 +553,11 @@
         font-family: 'Orbitron';
         font-size: 26.531px;
         font-style: normal;
-        font-weight: 700;
-        letter-spacing: 0.3px;
+        font-weight: 500;
+        letter-spacing: 0.1px;
         font-size: 16px;
         line-height: normal;
-        padding-left: 35px;
+        padding-left: 27px;
     }
 
 
@@ -514,7 +579,8 @@
         display: flex;
         flex-wrap: nowrap;
         justify-content: center;
-        margin-top: 44px;
+        margin-top: 35px;
+        margin-left: -17px;
     }
 
     .card {
@@ -532,7 +598,7 @@
     /* ----------CARD ----------------- */
 
     .card-body {
-        padding: 10px 21px 10px 21px;
+        padding: 19px 21px 10px 14px;
         width: 304px;
         height: 164px;
         background-color: none;
@@ -567,41 +633,45 @@
     }
 
     .strsii-card {
-        padding-top: 10px;
+        padding-top: 0px;
     }
 
     .name-card {
-        margin-top: 2px;
+        margin-top: 12px;
         margin-left: 9px;
         font-family: 'Rajdhani';
         font-style: normal;
-        letter-spacing: 0.1px;
+        letter-spacing: 0px;
         font-size: 13.601px;
         font-weight: 700;
     }
 
     .microchelick {
-        margin-top: -1px;
-        width: 26px;
+        margin-top: 1px;
+        width: 34px;
         padding-left: 9px;
     }
 
     .microgalka {
 
-        width: 11px;
-        padding-left: -1px;
+        width: 23px;
+        padding-left: 10px;
     }
 
     .username-card {
         font-family: 'Rajdhani';
         font-style: normal;
-        letter-spacing: 0.4px;
+        letter-spacing: 0px;
         font-size: 11.901px;
-        font-weight: 600;
+        font-weight: 500;
+        margin-top: 8px;
+
     }
 
     .username-card span {
         padding-left: 3px;
+
+
     }
 
     .textprice-card {
@@ -609,7 +679,7 @@
         font-style: normal;
         font-weight: 600;
         letter-spacing: 0px;
-        margin-top: 14px;
+        margin-top: 20px;
         margin-left: 8px;
         font-size: 8.5px;
     }
@@ -618,8 +688,8 @@
         font-family: 'Rajdhani';
         font-style: normal;
         font-weight: 400;
-        margin-top: 2px;
-        margin-left: 1px;
+        margin-top: 7px;
+        margin-left: 5px;
         letter-spacing: 0px;
         font-size: 8.5px;
         color: rgba(255, 255, 255, 0.60);
@@ -630,19 +700,20 @@
     }
 
     .price-card img {
+        margin-top: -2px;
         height: auto;
-        padding-right: 3px;
+        margin-right: 7px;
     }
 
 
     .right-sii-card {
-        padding-top: 8px;
+        padding-top: 16px;
     }
 
     .actionRnds-card {
         font-family: 'Rajdhani';
         font-style: normal;
-        margin-left: -25px;
+        margin-left: 8px;
         letter-spacing: 0px;
         font-size: 8.5px;
         font-weight: 600;
@@ -651,8 +722,10 @@
     .timeActionEnds-card {
         display: flex;
         justify-content: space-between;
-        margin-top: -6px;
-        margin-right: 30px;
+        margin-top: 5px;
+        margin-right: 0px;
+        width: 96px;
+        margin-left: 4px;
 
     }
 
@@ -671,17 +744,18 @@
 
     .timeHours {
         margin-top: 0px;
-        margin-left: 0px;
+        margin-left: 2px;
     }
 
     .timeMins {
         margin-top: 0px;
-        margin-left: 0px;
+        margin-left: -1px;
     }
 
     .timeSecs {
         padding-right: 0px;
         margin-top: 0px;
+
     }
 
     .bignum {
@@ -716,7 +790,8 @@
     }
 
     .btnPlace {
-        margin-top: 20px;
+        margin-top: 28px;
+        margin-right: -3px;
         color: white;
         font-family: 'Rajdhani';
         font-size: 13.601px;
@@ -726,24 +801,28 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 108px;
-        height: 34px;
+        width: 111px;
+        height: 38px;
         background-image: linear-gradient(90deg, #ff60dd, #c42dff, #77bdff);
         border-image: linear-gradient(to right, #4ba6fc, #ff7de3);
         border-image-slice: 1;
 
     }
 
+    .btnPlace img {
+        padding-left: 15px;
+    }
+
     .PlaceBid-card {
         text-align: center;
         margin-top: -4px;
-        margin-left: -37px;
+        margin-left: 0px;
         align-items: center;
         justify-content: center;
     }
 
     .spanPlace {
-        margin-left: -17px;
+        margin-left: 2px;
         margin-top: -3px;
 
     }
@@ -755,6 +834,7 @@
     }
 
     .btnExploreMobile {
+        margin-top: -18px;
         background-color: none;
         background: none;
         border: none;
@@ -771,7 +851,7 @@
     .container-4 {
         padding-left: 0px;
         padding-right: 0px;
-        margin-top: 20px;
+        margin-top: 37px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -793,13 +873,13 @@
         font-weight: 700;
         line-height: normal;
         letter-spacing: 0.1px;
-        padding: 10px 0 25px 0;
+        padding: 10px 0 21px 0;
     }
 
     .mid-left-side-container-4 {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 17px 17px;
+        gap: 18.8px 17px;
         margin: 0 auto;
         margin-left: 0px;
     }
@@ -821,8 +901,8 @@
         border-radius: 10px;
         font-size: 10.992px;
         font-style: normal;
-        font-weight: 700;
-        letter-spacing: 0.6px;
+        font-weight: 500;
+        letter-spacing: 0.1px;
 
     }
 
@@ -839,7 +919,7 @@
         justify-content: right;
         align-items: center;
         color: white;
-        padding-top: 25px;
+        padding-top: 18px;
         font-size: 20px;
     }
 
@@ -856,12 +936,14 @@
 
     .bot-left-side-container-4 a img {
         margin-top: -2px;
-        padding-right: 3px;
-        width: 25px;
+        padding-right: 0px;
+        width: 22px;
     }
 
     .bot-left-side-container-4 a span {
-        padding-right: 9px;
+        padding-right: 0px;
+        letter-spacing: 0px;
+        margin-right: 2px;
     }
 
     .right-side-container-4 {
@@ -873,13 +955,15 @@
     }
 
     .right-side-container-4 img {
-        margin-top: 10px;
+        margin-top: 4px;
         padding-right: 0px;
-        width: 270px;
+        padding-left: 3px;
+        height: 345px;
+        width: auto;
     }
 
     .btnActiv {
-        background-image: linear-gradient(90deg, #0400f3, #b500fd, #fc45dd);
+        background-image: linear-gradient(90deg, #fc45dd, #b500fd, #69c9f5);
         transform: scale(1.00);
         border-radius: 0px;
         color: white;
@@ -890,7 +974,7 @@
     .container-5 {
         display: flex;
         flex-direction: column;
-        margin-top: 100px;
+        margin-top: 114px;
         padding-left: 0px;
         padding-right: 0px;
 
@@ -910,12 +994,13 @@
     .top-left-side-container-5 {
         color: white;
         font-family: 'Orbitron';
-        font-size: 18.061px;
+        font-size: 17px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
         letter-spacing: 2px;
-        margin: auto;
+        margin-left: 26px;
+        letter-spacing: 0.8px;
     }
 
     .top-right-side-container-5 {
@@ -945,10 +1030,12 @@
 
     .bot-container-5 {
         display: flex;
-        justify-content: space-between;
+        justify-content: left;
         flex-wrap: wrap;
-        margin-top: 19px;
-        margin: auto;
+        margin-top: 1px;
+        /* margin: auto; */
+        margin-left: -18px;
+
     }
 
     .card-people-info {
@@ -975,13 +1062,13 @@
         width: 112px;
         position: absolute;
         left: 50%;
-        top: 18.5%;
+        top: 18.8%;
         transform: translate(-50%);
     }
 
     .info-card-people-info {
         width: 300px;
-        margin-top: 45px;
+        margin-top: 47px;
         text-align: center;
         color: white;
         font-family: 'Rajdhani';
@@ -1003,8 +1090,8 @@
         font-weight: 400;
         line-height: 46.08px;
         color: #FFB1EE;
-        padding-left: 20px;
-        margin-top: -10px;
+        padding-left: 14px;
+        margin-top: -14px;
 
     }
 
@@ -1013,10 +1100,10 @@
     }
 
     .stats-card-people-info {
-        margin-top: 6px;
+        margin-top: 4px;
         display: flex;
         justify-content: space-between;
-        width: 233px;
+        width: 245px;
         padding-right: 3px;
 
     }
@@ -1029,7 +1116,7 @@
 
     .stats-info-colums-bot {
         padding-left: 1px;
-        margin-top: -8px;
+        margin-top: -6px;
         font-size: 13.714px;
         font-style: normal;
         font-weight: 500;
@@ -1037,7 +1124,7 @@
     }
 
     .btnFollow {
-        margin-top: 38px;
+        margin-top: 28px;
         margin-left: 4px;
         color: white;
         font-family: 'Rajdhani';
@@ -1057,12 +1144,26 @@
         padding-left: 8px;
     }
 
+    .bot-container-3 {
+        display: block;
+        display: flex;
+        justify-content: center;
+    }
+
+    .btnExploreMobile2 {
+        margin-top: -14px;
+        background-color: none;
+        background: none;
+        border: none;
+        color: white;
+    }
+
     /* <!-- ---------- --container-6 -------> */
 
     .container-6 {
         padding-left: 25px;
         padding-right: 25px;
-        margin-top: 60px;
+        margin-top: 47px;
         margin-bottom: 0px;
         color: white;
     }
@@ -1082,10 +1183,10 @@
         font-family: 'Orbitron';
         font-size: 19.231px;
         font-style: normal;
-        font-weight: 100;
+        font-weight: 500;
         line-height: normal;
-        padding-left: 29px;
-        letter-spacing: 0.5px;
+        padding-left: 6px;
+        letter-spacing: 0.3px;
     }
 
     .name-top-container-6 span {
@@ -1098,15 +1199,16 @@
         font-style: normal;
         font-weight: 100;
         text-align: center;
-        letter-spacing: 0.1px;
-        margin-top: 23px;
-        margin-bottom: 10px;
-        padding-left: 15px;
+        letter-spacing: 0.2px;
+        margin-top: 16.6px;
+        margin-bottom: 0px;
+        margin-left: -5px;
+        padding-left: 4px;
         width: auto;
     }
 
     .mid-container-6 {
-        margin-top: 12px;
+        margin-top: 0px;
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
@@ -1124,7 +1226,7 @@
         background-size: 100% 100%;
         display: flex;
         align-items: center;
-        padding: 0 5px 0 15px;
+        padding: 0 5px 0 21px;
         margin-top: 25px;
         position: relative;
     }
@@ -1144,6 +1246,11 @@
         width: 30px;
         display: flex;
         justify-content: left;
+    }
+
+    .number-card-stat-people4 {
+        margin-left: -5px;
+        margin-right: 5px;
     }
 
     .details-card-stat-people {
@@ -1234,14 +1341,22 @@
 
     }
 
+    .btnExploreMobile3 {
+        margin-top: -25px;
+        background-color: none;
+        background: none;
+        border: none;
+        color: white;
+    }
+
 
     /* <!----------- container-7  -------------> */
 
     .container-7 {
         position: relative;
-        margin-top: 0px;
+        margin-top: 47px;
         margin-bottom: 100px;
-        background-image: url(../img/bgContainer7.png);
+        background-image: url(../img/bgContainer7mobile.png);
         background-size: cover;
         background-position: center;
         height: 300px;
@@ -1259,14 +1374,14 @@
         display: flex;
         flex-direction: column;
         color: white;
-        padding-top: 33px;
-        padding-left: 27px;
+        padding-top: 36px;
+        padding-left: 41px;
         padding-right: 41px;
         position: absolute;
-        top: 39%;
+        top: 41%;
         left: 50%;
         transform: translateX(-50%);
-        backdrop-filter: blur(10px);
+        backdrop-filter: blur(35px);
         border-bottom: 1px;
         font-family: 'inter';
     }
@@ -1275,12 +1390,12 @@
         font-family: 'Inter';
         font-size: 25.87px;
         font-style: normal;
-        font-weight: 500;
-
+        font-weight: 800;
+        line-height: 34.925px
     }
 
     .mid-container-7 {
-        margin-top: 0px;
+        margin-top: 10px;
         font-family: 'Inter';
         font-size: 11.642px;
         font-style: normal;
@@ -1290,16 +1405,16 @@
     }
 
     .bot-container-7 {
-        margin-top: 30px;
+        margin-top: 27px;
         margin-left: -2px;
         font-family: 'Inter';
-        font-size: 12px;
+        font-size: 10.4px;
         font-style: normal;
         font-weight: 300;
     }
 
     .bot-container-7 span {
-        padding-left: 40px;
+        padding-left: 25px;
     }
 
     /* <!----------- container-8  -------------> */
@@ -1310,7 +1425,7 @@
         display: flex;
         flex-wrap: wrap;
         color: white;
-        margin-top: 150px;
+        margin-top: 207px;
         margin-bottom: 70px;
     }
 
@@ -1320,7 +1435,9 @@
 
     .left-side-container-8 img {
         max-width: 100%;
-        border-radius: 15px;
+        height: 380px;
+        border-radius: 6px;
+        margin-top: 87px;
     }
 
     .right-side-container-8 {
@@ -1355,7 +1472,7 @@
 
 
     .form-Subscribe-container {
-        margin-top: 10px;
+        margin-top: 34px;
         margin-bottom: 20px;
     }
 
@@ -1365,19 +1482,24 @@
     }
 
     .input-email {
-        padding: 10px 11px 10px 11px;
+        padding: 9px 11px 11px 12px;
         border-radius: 5.527px 0px 0px 5.527px;
         border: 0;
         width: 180.973px;
         height: 35.027px;
-        font-size: 13.216px;
+        font-family: 'Inter';
+        font-size: 10.216px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 17.514px;
     }
 
     .submit-btn {
         margin-left: 6px;
-        margin-top: 0px;
+        margin-top: -1px;
+
         font-family: 'Inter';
-        font-size: 13.216px;
+        font-size: 10.216px;
         font-style: normal;
         font-weight: 500;
         width: 94.865px;
@@ -1391,12 +1513,12 @@
 
     /*-------------- footer ----------- */
     .footer {
-        padding-top: 79px;
-        padding-left: 82px;
-        padding-right: 147px;
+        padding-top: 15px;
+        padding-left: 25px;
+        padding-right: 25px;
         max-width: 1600px;
         margin: auto;
-        display: none;
+        /* display: none; */
     }
 
     .top-footer {
@@ -1407,8 +1529,9 @@
         font-style: normal;
         font-weight: 400;
         justify-content: space-between;
-        padding: 90px 70px 40px 0px;
+        padding: 30px 0px 21px 0px;
         flex-wrap: wrap;
+        border-top: 1px solid gray;
     }
 
     .vector_footer_icon {
@@ -1436,7 +1559,7 @@
     }
 
     .column-1 {
-        width: 282px;
+        min-width: 325px;
     }
 
     .logo-column-1 {
@@ -1476,22 +1599,24 @@
     .columns {
         margin-top: -2px;
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
         width: 928px;
+        display: none;
     }
 
     .column-3 {
-        margin-left: -20px;
-        padding-right: 1px;
+        margin-left: 0px;
+        padding-right: 0px;
     }
 
     .column-4 {
-        margin-left: -11px;
+        margin-left: 0px;
     }
 
     .column-5 {
-        margin-right: -24px;
-        padding-left: 2px
+        margin-right: 0px;
+        padding-left: 0px
     }
 
     .column-2 a {
@@ -1525,14 +1650,16 @@
     .linebotarara2 {
         margin-top: 33px;
         width: 100%;
+        display: none;
     }
 
     .bot-footer {
         padding-top: 25px;
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
         color: white;
-        padding-right: 31px;
+        padding-right: 0px;
         font-family: 'Inter';
         font-size: 15.476px;
         font-style: normal;
@@ -1541,16 +1668,110 @@
     }
 
     .left-side-bot-footer {
+        margin-top: 37px;
+        margin-left: 12px;
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: center;
         padding-top: 1px;
+        order: 2;
+        font-family: 'Inter';
+        font-size: 15.476px;
+        font-style: normal;
+        font-weight: 100;
+        line-height: 26.531px;
+        letter-spacing: 0.3px;
+        
+        
+    }
+
+    .right-side-bot-footer {
+        order: 1;
+        margin-top: -2px;
+        padding-left: 15px;
+    }
+
+    .footer-none {
+        display: none;
     }
 
     .right-side-bot-footer a {
         color: #D9DBE1;
         text-decoration: none;
+        font-family: 'Inter';
+        font-size: 15.476px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26.531px;
+        letter-spacing: 0px;
+    }
+
+    .PolicyMedia{
+        margin-left: 30px;
     }
 
     .right-side-bot-footer span {
-        padding: 0 6px 0 6px;
+        padding: 0 0px 0 6px;
+    }
+
+    /* ----------------------------------------------------- */
+
+    .accordion {
+        display: block;
+    }
+
+    .accordion-body {
+        padding-top: 0px;
+        padding-left: 10px;
+    }
+
+    .accordion-item {
+        background-color: rgba(4, 45, 23, 0);
+        /* Зелений фон з повною прозорістю */
+        color: white;
+
+    }
+
+    .accordion-button {
+        background-color: rgba(4, 45, 23, 0.0);
+        /* Зелений фон з повною прозорістю */
+        color: white;
+        padding-left: 1px;
+        padding-right: 20px;
+        border: none;
+    }
+
+    .not-main-row,
+    .accordion-button {
+        font-family: 'Inter';
+        font-size: 19.898px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 31.853px;
+        color: white;
+        text-decoration: none;
+    }
+
+    .accordion-collapse,
+    .collapse,
+    .show {
+        border: none;
+        box-shadow: none;
+        background-color: rgba(4, 45, 23, 0.0);
+    }
+
+    .accordion-button:after {
+        background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff' fill-opacity='0.54'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+    }
+
+    .accordion-button:not(.collapsed) {
+        color: white;
+        background-color: rgba(4, 45, 23, 0.0);
+    }
+
+    .accordion-button:focus {
+        box-shadow: none;
+        border-color: rgba(255, 255, 255, 1);
     }
 
 }

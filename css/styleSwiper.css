@@ -1,0 +1,127 @@
+html,
+body {
+    height: 100%;
+    line-height: 1;
+    font-size: 14px;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    padding: 30px;
+    
+}
+
+.swiper-slide{
+    text-align: center;
+}
+
+.image-slider_image img{
+    max-height: 100%;
+}
+
+.card-people-info {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 303.103px;
+    height: 391.125px;
+    background-image: url(../img/backgroundCardPeopleInfo.svg);
+    background-size: 100% 100%;
+}
+
+.container-card-5-none {
+    display: none;
+}
+
+.backgraundPeopleInfoTop {
+    width: 100%;
+    padding: 4px 4px 0px 3px;
+}
+
+.avatar {
+    width: 112px;
+    position: absolute;
+    left: 50%;
+    top: 18.5%;
+    transform: translate(-50%);
+}
+
+.info-card-people-info {
+    width: 300px;
+    margin-top: 45px;
+    text-align: center;
+    color: white;
+    font-family: 'Rajdhani';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Вирівнювання по горизонталі */
+}
+
+.name-card-people-info {
+    font-size: 16.839px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.nickname-card-people-info {
+    font-size: 13.959px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46.08px;
+    color: #FFB1EE;
+    padding-left: 20px;
+    margin-top: -10px;
+
+}
+
+.nickname-card-people-info img {
+    height: 15px;
+}
+
+.stats-card-people-info {
+    margin-top: 6px;
+    display: flex;
+    justify-content: space-between;
+    width: 233px;
+    padding-right: 3px;
+
+}
+
+.stats-info-colums-top {
+    font-size: 21.942px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.stats-info-colums-bot {
+    padding-left: 1px;
+    margin-top: -8px;
+    font-size: 13.714px;
+    font-style: normal;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.btnFollow {
+    margin-top: 38px;
+    margin-left: 4px;
+    color: white;
+    font-family: 'Rajdhani';
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 162.601px;
+    height: 35.209px;
+    background-image: linear-gradient(90deg, #ff60dd, #c42dff, #77bdff);
+    border-image: linear-gradient(to right, #4ba6fc, #ff7de3);
+    border-image-slice: 1;
+    font-size: 13.777px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding-left: 8px;
+}
