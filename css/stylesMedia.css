@@ -23,6 +23,14 @@
         display: none;
     }
 
+    .sec {
+        display: block;
+        width: 200px;
+        height: 150px;
+        left: 0px;
+        top: 650px;
+    }
+
     /* --------- header ------------- */
     header {
         font-size: 19.9px;
@@ -46,8 +54,8 @@
         content: none;
     }
 
-    .dropdown-menu {
-        background-color: gray;
+    .drop-header {
+        background: grey;
     }
 
     .dropdown-item {
@@ -162,7 +170,7 @@
 
     .gradient-text {
         margin-left: -2px;
-        background-image: linear-gradient(90deg, #FF56F6, #8445b8, #43A5E3);
+        background-image: linear-gradient(90deg, #ff45f6, #1aa6f7);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -193,7 +201,7 @@
     }
 
     .createNFT {
-        background-image: linear-gradient(90deg, #43A5E3, #8445b8, #FF56F6);
+        background-image: linear-gradient(90deg, #1aa6f7, #ff45f6);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -336,7 +344,7 @@
         top: -60px;
         margin-left: 0px;
         position: relative;
-        backdrop-filter: blur(15px);
+        backdrop-filter: blur(45px);
         z-index: 2;
         clip-path: polygon(14% 0, 100% 0, 100% 100%, 0 100%, 0 24%);
         font-family: 'Rajdhani';
@@ -1753,8 +1761,7 @@
     }
 
     .accordion-collapse,
-    .collapse,
-    .show {
+    .collapse {
         border: none;
         box-shadow: none;
         background-color: rgba(4, 45, 23, 0.0);
